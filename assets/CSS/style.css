@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  padding: 15px;
+  background-color: #e6e6e6;
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+}
+
+.boton_nueva_tarea {
+  margin-top: 10px;
+}
+
+.registros {
+  margin-top: 15px;
+  display: flex;
+}
+
+.valores_total {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.boton_verde {
+  color: white;
+  background-color: rgb(29, 110, 19);
+  border: none;
+  width: 70px;
+  height: 40px;
+}
+
+.asistente {
+  display: flex;
+  margin: 10px;
+}
+
+.tareas_total {
+  width: 40%;
+}
+
+.estatus_de_tareas {
+  width: 40%;
+}
+
+.asistente_titulo {
+  display: flex;
+}
+
+.nombre_asistente {
+  margin-left: 40px;
+  width: 80%;
+}
+
+.estado_tarea {
+  width: 10%;
+}
+
+.accion_boton {
+  width: 10%;
+}
+#total,
+#total_final {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.boton_X {
+  /* padding: 1px;
+  margin: 2px; */
+  color: red;
+  font-weight: bold;
+  /* border: none; */
+}

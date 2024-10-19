@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="titulo"><h1>Todo List</h1></div>
+      <hr />
+
+      <div class="boton_nueva_tarea">
+        <p>Nueva tarea</p>
+        <form>
+          <input
+            type="text"
+            id="nuevo_asistente"
+            style="width: 80%; height: 35px"
+          />
+          <button class="boton_verde" onclick="agregar_persona(event)">
+            Agregar
+          </button>
+        </form>
+      </div>
+
+      <div class="registros">
+        <div class="valores_total">
+          <div class="tareas_total">Total: <span id="total_final"></span></div>
+          <div class="tareas_total">Realizadas: <span id="total"></span></div>
+        </div>
+
+        <div class="estatus_de_tareas">
+          <ul id="listaAsistentes"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
